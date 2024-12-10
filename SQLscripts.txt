@@ -2,6 +2,19 @@ INSERT INTO public.mpaa (mpaa_rating, mpaa_description) VALUES ('G', 'General Au
 //////////////////////////////////////
 
 
+INSERT INTO public.user_info (
+    username,
+    password
+) VALUES
+('brenna_the_great', 'password123'),
+('hayden_rockstar', 'securepassword'),
+('toa_champion', 'toaPower!'),
+('natali_shines', 'brightStar1'),
+('annelise_amazing', 'wonderfulDay!'),
+('kinsee_kicks_it', 'kinseeRocks23'),
+('henry_the_hero', 'heroicPass2023');
+
+
 
 INSERT INTO movie_info (
     title,
