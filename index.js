@@ -55,7 +55,7 @@ app.post('/signup', async (req, res) => {
     const { username, password } = req.body;
 
     try {
-        await db('users').insert({ username, password }); // Assuming you have a 'users' table
+        await db('user_info').insert({ username, password }); // Assuming you have a 'users' table
         res.redirect('/login');
     } catch (err) {
         console.error(err);
@@ -68,7 +68,7 @@ app.post('/login', async (req, res) => {
     const { username, password } = req.body;
 
     try {
-        const user = await db('users').where({ username, password }).first();
+        const user = await db('user_info').where({ username, password }).first();
 
         if (user) {
             res.redirect('/movies');
