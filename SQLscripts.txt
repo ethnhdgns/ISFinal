@@ -6,13 +6,13 @@ INSERT INTO public.user_info (
     username,
     password
 ) VALUES
-('brenna_the_great', 'password123'),
-('hayden_rockstar', 'securepassword'),
-('toa_champion', 'toaPower!'),
-('natali_shines', 'brightStar1'),
-('annelise_amazing', 'wonderfulDay!'),
-('kinsee_kicks_it', 'kinseeRocks23'),
-('henry_the_hero', 'heroicPass2023');
+('brenna_the_great', 'brennaUrock!'),
+('hayden_rockstar', 'iBench225'),
+('toa_champion', 'mostFamousTAever'),
+('natali_shines', 'brightLikeAdiamond!'),
+('annelise_amazing', 'beyonceIsJealous'),
+('kinsee_kicks_it', 'theTrendSetter'),
+('henry_the_hero', 'noSwordOrShieldNeeded');
 
 
 
@@ -29,7 +29,7 @@ INSERT INTO movie_info (
     mpaa_rating
 ) VALUES
 (
-    'The Shawshank Redemption',
+    'The Shawshank Redemption'
     1,
     1994,
     'https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmRhMC00ZDIzLTkzNjgtNWYzMDk3NzY1ZmE2XkEyXkFqcGdeQXVyNDYzMjQ4MTY@._V1_.jpg',
